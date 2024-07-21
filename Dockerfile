@@ -10,7 +10,7 @@ RUN yarn global add @medusajs/medusa-cli
 
 RUN yarn add medusa-plugin-meilisearch
 
-RUN yarn add medusa-file-minio
+RUN yarn add medusa-file-s3
 
 RUN yarn --network-timeout 1600000
 
