@@ -18,6 +18,8 @@ RUN yarn add medusa-file-s3
 
 RUN yarn add medusa-plugin-sendgrid
 
+RUN yarn add medusa-plugin-segment
+
 RUN yarn --network-timeout 1600000
 
 RUN yarn build --network-timeout 1600000
